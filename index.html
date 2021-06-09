@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2 class="textologin">
+            Login
+        </h2>
+
+        <img src="./img/emailIcon.svg" alt="">
+        <input placeholder="Email" type="email" name="email" id="email" class="inputLogin" required>
+        <img src="./img/cadeado.svg" alt="" class="password">
+        <input placeholder="Senha" type="password" name="password" id="password" class="inputLogin" required>
+
+        <input type="submit" id="btn" onclick="entrarLogin()" value="Entrar" class="btn">
+
+        <div class="moldura">
+            <span id="recuperarSenha"><a href="">Esqueci a minha senha!</a></span>
+        </div>
+
+
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
